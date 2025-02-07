@@ -36,6 +36,10 @@ const Signup = () => {
       // Check if the response is successful
       if (response.ok) {
         setMessage("Signup successful!"); // Display success message
+        // Optionally, reset the form fields
+        setEmail("");
+        setPassword("");
+        setConfirmPassword("");
       } else {
         setMessage("Error: " + data.error); // Display error message if signup failed
       }
