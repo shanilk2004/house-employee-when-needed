@@ -22,9 +22,14 @@ export default function HomePage() {
       {/* Main Content */}
       <main className="main-content">
         <div className="looking-job">
-        <h2>Looking for job?Want job right now.</h2>
-        <h2>Register for free right now</h2>
+        <h3>Looking for job?Want job right now.</h3>
+        <h3>Register for free right now</h3>
         <button>Register</button>
+        </div>
+        <div className="looking-handyman">
+        <h3>Looking for <b>handy man..??</b></h3>
+        <h3>Find the best one near you</h3>
+        <button>Hire now</button>
 
         </div>
       </main>
